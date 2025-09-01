@@ -19,3 +19,17 @@ To run, on src, use:
 ```
 bin/main <PI-accuracy> <nthreads>
 ```
+___
+Some of the results from my computer.
+```
+>>> make | bin/main 1000000 1
+    The approximation for PI is: 3.14159265358979310000
+    proccess took 493.00 ms
+```
+```
+>>> make | bin/main 1000000 8
+    The approximation for PI is: 3.14159265358979310000
+    proccess took 86.00 ms
+```
+I have the following specs for my CPU:
+![CPU-specs](img/cpu-specs.png){width=400}
